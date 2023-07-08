@@ -8,7 +8,8 @@ body {
 }
 
 main {
-    max-width: 1140px;
+    max-width: 1150px;
+    margin: auto auto;
 }
 
 /* Shared styles */
@@ -22,9 +23,11 @@ main {
 .common-header-style {
     color: #181818;
     text-align: center;
+    text-rendering: hidden;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .discription {
@@ -89,9 +92,9 @@ h1.title {
     justify-content: space-between;
     align-items: center;
     background-color: #FFF8F3;
-    background-image: url("/images/header_bg.png");
+    background-image: url("/images/header_bg.png"),url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,bottom left;
     height: 100vh;
 }
 
@@ -123,11 +126,9 @@ h1.title {
 
 /* This is about me style  */
 .aboutme {
-    display: block;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 60px;
-    margin-left: 250px;
     height: 430px;
     padding: 50px;
 
@@ -149,8 +150,7 @@ th {
 .SmallBox {
     width: 200px;
     height: 305px;
-    padding: 20px;
-    border: 1px solid black;
+    padding: 18px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -159,12 +159,13 @@ th {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 80vh;
 }
 .skills-grettings {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-/* .skills-discription{
+.skills-discription{
    text-align: center;
-   margin-left: 250px;
-} */
+   margin-bottom: 50px;
+} 
