@@ -1,70 +1,115 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
 }
-.title{
+
+main {
+    max-width: 1140px;
+}
+
+.title {
     color: #181818;
     font-size: 45px;
     font-weight: 700;
 
 }
-.nav-container, .banner{
+
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#FFF8F3;;
-
-
+    background-color: #FFF8F3;
+    padding-top: 20px;
 }
-.nav-list{
+
+h1.title {
+    margin-right: 260px;
+}
+
+.nav-list {
     display: flex;
     list-style: none;
-    
+
 }
-.buttons{
+
+.buttons {
     text-decoration: none;
     color: black;
     font-size: 18px;
     margin: 10px;
 }
-.spColor{
+
+.spColor {
     color: #FD6E0A;
 }
-.btn{
+
+.btn {
     border-radius: 5px;
     background: #FD6E0A;
     padding: 10px;
     color: white;
 
-
 }
-.spbutton{
+
+.spbutton {
     margin-left: 0px;
 }
-.text-content{
-    width: 500px;
-    margin-left: 225px;
-   
+
+.text-content {
+    width: 50%;
+    margin-left: 150px;
+
 }
-.herdy-pic{
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100vh;
+}
+
+.herdy-pic {
     width: 584px;
-    height: 676px;
-    position: relative;
-    top: 0px;
-    bottom: 100px;
+    height: 620px;
 }
-.Big-title{
+
+.Big-title {
     font-size: 85px;
     font-weight: 700;
 }
-.button-container{
+
+.button-container {
     margin-top: 20px;
 }
-.banner-image{
-    background-image: url("/images/header_bg.png");
+
+.banner-image {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-page {
+    background-image: url("/images/developer.png");
     background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+/* This is about me style  */
+.aboutme{
+    display: block;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 80px;
+    margin-left: 250px;
+    height: 450px;
+    padding: 50px;
 
 }
