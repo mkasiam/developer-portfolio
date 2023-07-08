@@ -39,6 +39,7 @@ main {
 }
 
 
+/* navigation styles  */
 
 .nav-container {
     display: flex;
@@ -82,6 +83,8 @@ h1.title {
     margin-left: 0px;
 }
 
+/* banner content styles */
+
 .text-content {
     width: 50%;
     margin-left: 150px;
@@ -93,21 +96,18 @@ h1.title {
     justify-content: space-between;
     align-items: center;
     background-color: #FFF8F3;
-    background-image: url("/images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
     height: 100vh;
-}
-.banner1{
     background-image: url("/images/developer.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 100px 80vh;
     background-position-y: top;
 }
+
 .herdy-pic {
     width: 584px;
     height: 620px;
+    float: right;
 }
 
 .Big-title {
@@ -120,25 +120,21 @@ h1.title {
 }
 
 .banner-image {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.first-page {
-    background-image: url("/images/developer.png");
+    width: 800px;
+    background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom right;
+    background-size: 650px 500px;
 }
 
 /* This is about me style  */
+
 .aboutme {
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 60px;
     height: 430px;
     padding: 50px;
-
 }
 
 .info {
@@ -154,6 +150,7 @@ th {
 }
 
 /* This is skills section style  */
+
 .SmallBox {
     width: 200px;
     height: 305px;
@@ -180,7 +177,11 @@ th {
     margin-bottom: 50px;
 }
 
+
+
 /* this is Education style  */
+
+
 .edu-deatails {
     width: 450px;
     padding: 20px;
@@ -219,13 +220,19 @@ th {
     justify-content: space-around;
     align-items: center;
 }
-.spbtn{
+
+.spbtn {
     border: none;
     margin-left: 550px;
     padding: 15px;
     margin-top: 10px;
 }
-.foolter-section{
+
+
+/* This is footer styles  */
+
+
+.foolter-section {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -233,16 +240,17 @@ th {
     background-color: #FFF8F3;
     margin-top: 20px;
 }
-.footer-text-content{
+
+.footer-text-content {
     width: 500px;
     margin-right: 50px;
 }
-.footer-form-section input{
+
+.footer-form-section input {
     width: 236px;
     height: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-   
 }
