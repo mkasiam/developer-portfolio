@@ -96,13 +96,13 @@ h1.title {
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    height: 100vh;
+    height: 90vh;
 }
 .banner1{
     background-image: url("/images/developer.png");
     background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: 100px 95vh;
+    background-size: 100px 80vh;
     background-position-y: top;
 }
 .herdy-pic {
