@@ -71,6 +71,7 @@ h1.title {
 
 .btn {
     border-radius: 5px;
+    border: none;
     background: #FD6E0A;
     padding: 10px;
     color: white;
@@ -92,9 +93,9 @@ h1.title {
     justify-content: space-between;
     align-items: center;
     background-color: #FFF8F3;
-    background-image: url("/images/header_bg.png"),url("/images/developer.png");
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,bottom left;
+    background-position: bottom right, bottom left;
     height: 100vh;
 }
 
@@ -155,17 +156,87 @@ th {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.containerBox{
+
+.containerBox {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80vh;
 }
+
 .skills-grettings {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.skills-discription{
-   text-align: center;
-   margin-bottom: 50px;
-} 
+
+.skills-discription {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* this is Education style  */
+.edu-deatails {
+    width: 450px;
+    padding: 20px;
+}
+
+.edu-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.edu-sub-title {
+    color: #474747;
+    font-size: 25px;
+}
+
+.edu-time {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.edu-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.half-resume-details {
+    width: 500px;
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.spbtn{
+    border: none;
+    margin-left: 550px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.foolter-section{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background-color: #FFF8F3;
+    margin-top: 20px;
+}
+.footer-text-content{
+    width: 500px;
+    margin-right: 50px;
+}
+.footer-form-section input{
+    width: 236px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
